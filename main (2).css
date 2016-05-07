@@ -1,0 +1,169 @@
+<style> 
+<meta name="viewport" content="width=device-width, initial-sacle=1.0">
+*{
+    background-color: aqua;
+        }
+   
+.row li:after{
+        content: "";
+        clear: both;
+        display: block;
+        }
+[class*="col-"]{
+    float:left;
+    padding:10px;
+        }
+.row{background-color: skyblue;}
+nav,.des,.f1{display: none;}
+
+    .m{display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: .5%;
+    color:white;
+    font-size: 2.5gem;}
+.m a {font-family: fantasy;
+    color: white;
+    text-decoration: none;}
+.m a:hover {color: white;}
+.title{padding-top: 15px;}
+
+    .title h1, h5{
+        display: inline;
+        color: blue;
+        
+        letter-spacing: 1.2px;
+        
+        font-family: cursive;
+        
+        
+        }
+    .title img{
+        float:left;
+        }
+    
+    .title {
+    background-image: url("http://i0.wp.com/www.oneworldjustgo.com/wp-content/uploads/2016/03/Tremezzo-Lake-Como-Italy.jpg?resize=1080%2C720");
+    padding-bottom: 200px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    margin-bottom: 0%;
+        margin-top: auto;
+        }
+    .row ul{
+    list-style-type: none;
+
+           }  
+    .row li{
+    text-align: justify;
+    margin-bottom:2px;
+    color: blue;
+    border-style: outset;
+        }
+    .description{
+        border-style: groove;
+        border-bottom: 100%;
+    }
+    
+    a:link {
+        color: blueviolet;;
+        
+        text-decoration: none;
+        display: inline-flex;
+        }
+    body{
+        background-color: snow;
+        
+        }
+    footer {
+        text-align: justify;
+        float: left;
+        width: 100%;
+        padding: 15px ;
+        margin-top: 7px;
+        color: black;
+        background-color: aquamarine;
+        }
+.img{padding-right: 15px;}
+     
+    
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;}
+ @media only screen and (min-width: 768px) {
+    /* For tablets: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    .row {
+            display: grid; }
+        .des,.f1{display: block;}
+        .m{display: none;}
+     ul, nav {padding: 0%;
+         display: block;
+        }
+    nav {margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    nav li {background-color: deepskyblue;
+        
+         
+        text-align: justify;
+        padding: 0;
+        width: 16.66%;
+        display: block;
+        float: left;
+        }
+        nav {display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 0;
+    color:white;
+    font-size: 2.5gem;}
+nav a {font-family: fantasy;
+    color: white;
+    text-decoration: none;}
+nav a:hover {color: white;}
+}
+
+
+@media only screen and (min-width: 1000px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    .row {
+            display: grid; }
+    
+    .des,.f1{display: block;}
+     
+.m{display: none;}
+    
+}
+    
+   
+    
+ 
+</style>
